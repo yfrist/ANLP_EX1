@@ -1,0 +1,7 @@
+numpy
+evaluate
+transformers
+datasets
+wandb
+argparse
+accelerate>=0.26.0
