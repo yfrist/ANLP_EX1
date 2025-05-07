@@ -1,0 +1,113 @@
+Running Model 1 (Small LR - Low Acc)
+epoch_num: 3, lr: 0.000001, batch_size: 32, eval_acc: 0.6838
+
+Validation accuracy for Model 1 (Small LR - Low Acc): 68.87%
+Test accuracy for Model 1 (Small LR - Low Acc): 68.87%
+
+Mismatches for Model 1 (Small LR - Low Acc): 127 out of 408
+
+Example 1:
+  Sentence 1: Magnarelli said Racicot hated the Iraqi regime and looked forward to using his long years of training in the war .
+  Sentence 2: His wife said he was " 100 percent behind George Bush " and looked forward to using his years of training in the war .
+  True Label: 0
+  Predicted Label: 1
+
+Example 2:
+  Sentence 1: The dollar was at 116.92 yen against the yen , flat on the session , and at 1.2891 against the Swiss franc , also flat .
+  Sentence 2: The dollar was at 116.78 yen JPY = , virtually flat on the session , and at 1.2871 against the Swiss franc CHF = , down 0.1 percent .
+  True Label: 0
+  Predicted Label: 1
+
+Example 4:
+  Sentence 1: No dates have been set for the civil or the criminal trial .
+  Sentence 2: No dates have been set for the criminal or civil cases , but Shanley has pleaded not guilty .
+  True Label: 0
+  Predicted Label: 1
+
+Example 6:
+  Sentence 1: While dioxin levels in the environment were up last year , they have dropped by 75 percent since the 1970s , said Caswell .
+  Sentence 2: The Institute said dioxin levels in the environment have fallen by as much as 76 percent since the 1970s .
+  True Label: 0
+  Predicted Label: 1
+
+Example 11:
+  Sentence 1: " Sanitation is poor ... there could be typhoid and cholera , " he said .
+  Sentence 2: " Sanitation is poor , drinking water is generally left behind . . . there could be typhoid and cholera . "
+  True Label: 0
+  Predicted Label: 1
+
+Running Model 2 (High LR & Few Epochs - Medium Acc)
+epoch_num: 1, lr: 0.00005, batch_size: 32, eval_acc: 0.8039
+
+Validation accuracy for Model 2 (High LR & Few Epochs - Medium Acc): 82.60%
+Test accuracy for Model 2 (High LR & Few Epochs - Medium Acc): 82.60%
+
+Mismatches for Model 2 (High LR & Few Epochs - Medium Acc): 71 out of 408
+
+Example 6:
+  Sentence 1: While dioxin levels in the environment were up last year , they have dropped by 75 percent since the 1970s , said Caswell .
+  Sentence 2: The Institute said dioxin levels in the environment have fallen by as much as 76 percent since the 1970s .
+  True Label: 0
+  Predicted Label: 1
+
+Example 11:
+  Sentence 1: " Sanitation is poor ... there could be typhoid and cholera , " he said .
+  Sentence 2: " Sanitation is poor , drinking water is generally left behind . . . there could be typhoid and cholera . "
+  True Label: 0
+  Predicted Label: 1
+
+Example 22:
+  Sentence 1: The driver , Eugene Rogers , helped to remove children from the bus , Wood said .
+  Sentence 2: At the accident scene , the driver was " covered in blood " but helped to remove children , Wood said .
+  True Label: 0
+  Predicted Label: 1
+
+Example 25:
+  Sentence 1: Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean .
+  Sentence 2: Its closest relative is found in the Seychelles Archipelago , near Madagascar in the Indian Ocean .
+  True Label: 1
+  Predicted Label: 0
+
+Example 26:
+  Sentence 1: Cooley said he expects Muhammad will similarly be called as a witness at a pretrial hearing for Malvo .
+  Sentence 2: Lee Boyd Malvo will be called as a witness Wednesday in a pretrial hearing for fellow sniper suspect John Allen Muhammad .
+  True Label: 0
+  Predicted Label: 1
+
+Running Model 3 (Good Configuration - High Acc)
+epoch_num: 3, lr: 0.00002, batch_size: 16, eval_acc: 0.8504
+
+Validation accuracy for Model 3 (Good Configuration - High Acc): 85.05%
+Test accuracy for Model 3 (Good Configuration - High Acc): 85.05%
+
+Mismatches for Model 3 (Good Configuration - High Acc): 61 out of 408
+
+Example 6:
+  Sentence 1: While dioxin levels in the environment were up last year , they have dropped by 75 percent since the 1970s , said Caswell .
+  Sentence 2: The Institute said dioxin levels in the environment have fallen by as much as 76 percent since the 1970s .
+  True Label: 0
+  Predicted Label: 1
+
+Example 22:
+  Sentence 1: The driver , Eugene Rogers , helped to remove children from the bus , Wood said .
+  Sentence 2: At the accident scene , the driver was " covered in blood " but helped to remove children , Wood said .
+  True Label: 0
+  Predicted Label: 1
+
+Example 25:
+  Sentence 1: Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean .
+  Sentence 2: Its closest relative is found in the Seychelles Archipelago , near Madagascar in the Indian Ocean .
+  True Label: 1
+  Predicted Label: 0
+
+Example 35:
+  Sentence 1: Bush wanted " to see an aircraft landing the same way that the pilots saw an aircraft landing , " White House press secretary Ari Fleischer said yesterday .
+  Sentence 2: On Tuesday , before Byrd 's speech , Fleischer said Bush wanted ' ' to see an aircraft landing the same way that the pilots saw an aircraft landing .
+  True Label: 0
+  Predicted Label: 1
+
+Example 42:
+  Sentence 1: " Jeremy 's a good guy , " Barber said , adding : " Jeremy is living the dream life of the New York athlete .
+  Sentence 2: He also said Shockey is " living the dream life of a New York athlete .
+  True Label: 0
+  Predicted Label: 1
