@@ -74,7 +74,7 @@ def main():
             per_device_train_batch_size=args.batch_size,
             per_device_eval_batch_size=args.batch_size,
             num_train_epochs=args.num_train_epochs,
-            eval_strategy="epoch",  # or use evaluation_strategy if on a newer version
+            eval_strategy="epoch",  
             logging_strategy="steps",
             logging_steps=10,
             save_strategy="no",
